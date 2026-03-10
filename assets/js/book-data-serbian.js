@@ -450,8 +450,8 @@ window.BOOK_DATABASES_SERBIAN = {
         "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
         "coverImage": "naslovna/srpski_cirilica-zavod2.jpg",
         "coverThumb": "naslovna_th/srpski_cirilica-zavod2.jpg",
-        "firstPageImage": "srpski_cirilica-zavod2.jpg",
-        "firstPageThumb": "srpski_cirilica-zavod2.jpg"
+        "firstPageImage": "prva/srpski_cirilica-zavod2.jpg",
+        "firstPageThumb": "prva_th/srpski_cirilica-zavod2.jpg"
       },
       {
         "localName": "Srpski ćirilica",
