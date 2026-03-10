@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mali princ - srpska izdanja</title>
+    <link rel="stylesheet" href="assets/css/new.css">
+  </head>
+  <body data-page="catalog" data-database="serbian">
+    <div class="page-shell">
+      <header class="hero hero-compact">
+        <p class="eyebrow">Srpska izdanja</p>
+        <h1 id="catalog-title"></h1>
+        <p id="catalog-description" class="hero-copy"></p>
+        <div class="hero-nav">
+          <a class="section-link" href="new.html">Nazad na naslovnu</a>
+          <a class="section-link" href="strani.html">Idi na strane jezike</a>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="catalog-section">
+          <div class="toolbar">
+            <label class="search-field" for="catalog-search">
+              <span>Pretraga jezika</span>
+              <input id="catalog-search" type="search" placeholder="Unesi naziv jezika">
+            </label>
+            <p class="stats" id="catalog-stats"></p>
+          </div>
+          <div class="results-grid" id="catalog-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="assets/js/book-data-serbian.js"></script>
+    <script src="assets/js/book-data-other.js"></script>
+    <script src="assets/js/new.js"></script>
+  </body>
+</html>
