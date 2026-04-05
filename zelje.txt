@@ -1,8 +1,10 @@
 ovde cu pisati sve zelje
 
+hoću da na sajtu imam naslove "kako je sve počelo", "o kolekciji" i kod odeljka o kolekciji podnaslov "čuvar digitalne kolekcije", ovde su tekstovi za te naslove,  ostaju sektori na kojima su knjige na srpskom jeziku i sektor gde su knjige na stranim jezicima, hocu još jedan sektor, a to je sektor za knjige koje su za razmenu, za sada imam samo tekst za taj sektor a kasnije cu knjige ubaciti, isto kao sto su uradjene knjige na srpskom i na stranim jezicima. želim da imam i prevod na engleski jezik, može da bude na istoj strani, moj predlog da bude sa leve strane na srpskom a sa desne na engleskom. 
+
 KAKO JE SVE POČELO: 
-Kako je sve počelo / How It All Started
-Srpski
+Kako je sve počelo
+
 
 Moja priča sa Malim princom nije počela u osnovnoj školi, kada je on bio samo deo obavezne lektire. Prava veza se rodila znatno kasnije, 1996. godine, tokom studija u studentskom domu „Košutnjak“. Tada sam dobila primerak od svoje tadašnje cimerke, a današnje kume i „sestre“ Svetlane. Od tog trenutka, to je postala moja omiljena knjiga koja me je pratila na svim mojim putovanjima.
 
@@ -14,20 +16,10 @@ Od tog dana, sve ostalo je istorija koja danas broji preko 460 primeraka na viš
 
 ---
 
-English
-
-I can’t say it all began back in elementary school when The Little Prince was just a mandatory school assignment. The true connection was formed much later, in 1996, while I was a student living in the "Košutnjak" dormitory. I received a copy from my roommate at the time, who is today my godmother and "sister," Svetlana. Since then, it has been my favorite book, traveling with me wherever I went.
-
-The turning point came in 2008 during a summer holiday in Turkey. As I was reading my copy on the beach for the umpteenth time, I shared a thought with my cousin Daniela: "I practically know this book by heart. Maybe I should buy a copy in French, just to brush up on the language I’ve forgotten."
-
-In November 2008, I received my first copy in French. For a long time, those two editions—Serbian and French—stood alone on my shelf. Although I harbored a wish to have the book in even more languages, the idea remained just a thought until a visit to Szeged. In a local bookstore, I asked for The Little Prince in Hungarian, and I walked out with copies in Hungarian, Spanish, and Romanian.
-
-From that day on, the rest is history—a history that now encompasses over 460 copies in more than 330 languages and dialects.
-
 
 ZA DEO O KOLEKCIJI:
-O kolekciji / About the Collection
-Srpski
+O kolekciji 
+
 
 Ono što je počelo kao lična potraga za jednim francuskim izdanjem, preraslo je u sistematičnu kolekciju koja danas broji preko 469 knjiga. Moja misija nije samo sakupljanje brojeva, već dokumentovanje neverovatne lingvističke raznolikosti kojom svet progovara kroz reči Sent Egziperija. Kolekcija danas obuhvata izdanja na više od 338 svetskih jezika i dijalekata.
 
@@ -37,13 +29,7 @@ Drugi, jednako važan deo kolekcije, čine knjige do kojih sam došla putem razm
 
 ---
 
-English
 
-What began as a personal search for a single French edition has grown into a systematic collection that today includes over 469 books. My mission is not merely about accumulating numbers, but about documenting the incredible linguistic diversity through which the world speaks using Saint-Exupéry’s words. The collection features editions in more than 338 world languages and rare dialects.
-
-This treasury is also a testament to wonderful people and friendships. Many of the books on my shelves arrived as gifts from dear friends who, knowing my passion, sought out The Little Prince during their travels—from Japan, Malta, and Zanzibar to Greece, Macedonia, Republika Srpska, and Croatia. I owe a special debt of gratitude to Vladimir (Mrki), Miloš (Aždaja), Vlada, Radmila, Dejana, Olivera, Marija, Filip, Dušan, Tamara, Nada, and to Mirela, who selflessly sent me her precious copy all the way from the Faroe Islands.
-
-A special segment is dedicated to books received through exchanges with fellow collectors worldwide. Connections with people like Jen, Mertxe, Jean-Mark, Alfons, Elena, Kastaneda, Melih, Gerhard, Melisa, Laura, Slavek, Martina, Evelina, Kuncoro, Ilyas, Viviana, Adela, Juan Carlos, Maria, Mary, Ferenc, Ananya, Saosoong, Supoj, Christoforos, Jose, Mark, Jordi, and many others, have grown into ongoing communication and a shared mission. Without the effort of all these friends to find rare editions from Indonesia, Mexico, Spain, Lithuania, Switzerland, and beyond, my collection would not be nearly as rich or diverse today.
 
 PODNASLOV KOD "O KOLEKCIJI":
 ČUVAR DIGITALNE BIBLIOTEKE
@@ -51,15 +37,11 @@ Posebno mjesto u ovoj priči, i u svakom koraku razvoja moje zbirke, zauzima moj
 
 ---------
 
-English
-
-Guardian of the Digital Library
-A very special place in this story, and in every step of my collection’s growth, belongs to my friend CHUPCKO. He wasn’t just the one who initiated that first trip to Szeged where it all truly began; he is someone whose "fingerprints" can be found in almost every part of this journey. CHUPCKO opened the doors to the world of digital exchange for me, discovering groups and people who share this same passion, which sparked my first international trades. Many precious editions—from Zanzibar and Japan to Malta—were brought to me by his friends and colleagues, whom he selflessly encouraged to help. Furthermore, he is the creator and technical backbone of the website you are currently visiting; he taught me how to catalog every new copy and continues to help me keep this digital library organized.
 
 RAZMENA:
 
-Razmena / Exchange
+Razmena 
 
 Srpski: Kolekcija raste i kroz divnu saradnju sa drugim kolekcionarima širom sveta. Ukoliko želite da razmenimo duplikate ili posedujete izdanje koje još uvek nemam u svojoj zbirci, biće mi veliko zadovoljstvo da stupimo u kontakt. Možete mi pisati na e-mail: marinamaliprinc@gmail.com.
 
-English: The collection also grows through wonderful collaborations with fellow collectors worldwide. If you would like to exchange duplicates or have an edition that is not yet part of my collection, I would be delighted to hear from you. You can contact me via email at: marinamaliprinc@gmail.com.
+
