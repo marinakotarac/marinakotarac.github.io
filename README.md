@@ -1,9 +1,9 @@
-# Mali princ - odrzavanje nove prezentacije
+# Mali princ - odrzavanje sajta
 
 Ovaj projekat sada ima dve verzije prikaza:
 
-- `index.html` je stari, postojeci prikaz i nije menjan.
-- `new.html` je nova naslovna strana.
+- `index.html` je nova, aktivna naslovna strana sajta.
+- `old.html` je sacuvani stari prikaz.
 - `srpski.html` je nova strana za knjige na srpskom jeziku.
 - `strani.html` je nova strana za knjige na drugim jezicima.
 
@@ -16,7 +16,7 @@ Stilovi su u:
 
 - `assets/css/new.css`
 
-Logika prikaza, pretrage, statistike i tema je u:
+Logika prikaza, pretrage, statistike, mnozina i tema je u:
 
 - `assets/js/new.js`
 
@@ -254,9 +254,14 @@ To znaci da ne moras rucno da redjas knjige po abecedi kada ih dodajes.
 
 Tekstovi naslovne strane su u:
 
-- `new.html`
+- `index.html`
 
-Tekstovi zaglavlja za srpsku i stranu bazu delom dolaze iz:
+Tekstovi zaglavlja za srpsku i stranu bazu delom dolaze iz HTML fajlova:
+
+- `srpski.html`
+- `strani.html`
+
+Tekstovi i opisi baza, kao i deo dvojezicnog prikaza, dolaze iz:
 
 - `assets/js/book-data-serbian.js`
 - `assets/js/book-data-other.js`
@@ -265,6 +270,16 @@ Tacnije iz polja:
 
 - `window.BOOK_DATABASES_SERBIAN.description`
 - `window.BOOK_DATABASES_OTHER.description`
+
+Dodatna logika prikaza je u:
+
+- `assets/js/new.js`
+
+Tu su sada i:
+
+- dvojezicni tekstovi za kartice na naslovnoj strani
+- dvojezicni tekstovi za statistiku i pretragu
+- pravilni oblici mnozine za srpski (`jezik`, `jezika`, `knjiga`, `knjige`)
 
 
 # 9. Kratka provera posle svake izmene
@@ -296,3 +311,26 @@ Na stranicama `srpski.html` i `strani.html` klik na thumbnail:
 - otvara veliku sliku kao popup preko strane
 - zatvara se klikom bilo gde
 - zatvara se i tasterom `Esc`
+
+
+# 12. Trenutna struktura stranica
+
+- `index.html` je dvojezicna naslovna strana sa sekcijama:
+- `Kako je sve pocelo`
+- `O kolekciji`
+- `Cuvar digitalne biblioteke`
+- `Razmena`
+
+Na naslovnoj postoje 3 kartice:
+
+- srpska izdanja
+- izdanja na drugim jezicima
+- knjige za razmenu
+
+`srpski.html` i `strani.html` imaju:
+
+- dvojezicno zaglavlje
+- dvojezicne navigacione linkove
+- dvojezicnu pretragu
+- dvojezicnu statistiku rezultata
+- dvojezicne oznake ispod thumbnail slika

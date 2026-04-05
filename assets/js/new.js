@@ -1,7 +1,15 @@
 (function () {
   const databases = {
-    serbian: window.BOOK_DATABASES_SERBIAN,
-    other: window.BOOK_DATABASES_OTHER,
+    serbian: {
+      ...window.BOOK_DATABASES_SERBIAN,
+      englishTitle: "Books in Serbian",
+      englishDescription: "Physical Serbian editions in Marina Kotarac's collection, including Latin, Cyrillic, and special editions.",
+    },
+    other: {
+      ...window.BOOK_DATABASES_OTHER,
+      englishTitle: "Books in Other Languages",
+      englishDescription: "Translations and multilingual editions from Marina Kotarac's physical collection in languages other than Serbian.",
+    },
   };
   const themes = ["blue", "green", "red"];
 
@@ -22,6 +30,34 @@
     });
   }
 
+  function getSerbianPlural(value, forms) {
+    const absolute = Math.abs(value);
+    const lastTwo = absolute % 100;
+    const last = absolute % 10;
+
+    if (lastTwo >= 11 && lastTwo <= 14) {
+      return forms.many;
+    }
+
+    if (last === 1) {
+      return forms.one;
+    }
+
+    if (last >= 2 && last <= 4) {
+      return forms.few;
+    }
+
+    return forms.many;
+  }
+
+  function formatSerbianCount(value, forms) {
+    return `${value} ${getSerbianPlural(value, forms)}`;
+  }
+
+  function formatEnglishCount(value, singular, plural) {
+    return `${value} ${value === 1 ? singular : plural}`;
+  }
+
   function pickTheme() {
     const theme = themes[Math.floor(Math.random() * themes.length)];
     document.body.dataset.theme = theme;
@@ -34,18 +70,60 @@
     }
 
     const sections = [
-      { key: "serbian", href: "srpski.html" },
-      { key: "other", href: "strani.html" },
+      {
+        type: "database",
+        key: "serbian",
+        href: "srpski.html",
+        englishTitle: "Books in Serbian",
+        englishDescription: "Physical Serbian editions in Marina Kotarac's collection.",
+      },
+      {
+        type: "database",
+        key: "other",
+        href: "strani.html",
+        englishTitle: "Books in Other Languages",
+        englishDescription: "Translations and multilingual editions from Marina Kotarac's physical collection.",
+      },
+      {
+        type: "static",
+        href: "#razmena",
+        title: "Knjige za razmenu",
+        description: "Poseban sektor za duplikate i izdanja namenjena budućim razmenama sa kolekcionarima.",
+        englishTitle: "Books for Exchange",
+        englishDescription: "A dedicated section for duplicates and editions intended for future exchanges.",
+        countLabel: "Kontakt i najava budućih primeraka",
+        englishCountLabel: "Contact and upcoming exchange copies",
+      },
     ];
 
     container.innerHTML = sections
-      .map(({ key, href }) => {
-        const database = databases[key];
+      .map((section) => {
+        if (section.type === "static") {
+          return `
+            <a class="summary-card" href="${section.href}">
+              <strong>${section.title}</strong>
+              <span>${section.description}</span>
+              <strong>${section.englishTitle}</strong>
+              <span>${section.englishDescription}</span>
+              <span class="count">
+                <span>${section.countLabel}</span>
+                <span>${section.englishCountLabel}</span>
+              </span>
+            </a>
+          `;
+        }
+
+        const database = databases[section.key];
         return `
-          <a class="summary-card" href="${href}">
+          <a class="summary-card" href="${section.href}">
             <strong>${database.title}</strong>
             <span>${database.description}</span>
-            <span class="count">${database.items.length} knjiga u bazi</span>
+            <strong>${section.englishTitle}</strong>
+            <span>${section.englishDescription}</span>
+            <span class="count">
+              <span>${formatSerbianCount(database.items.length, { one: "knjiga", few: "knjige", many: "knjiga" })} u bazi</span>
+              <span>${formatEnglishCount(database.items.length, "book", "books")} in database</span>
+            </span>
           </a>
         `;
       })
@@ -64,10 +142,12 @@
           <a class="thumb-link" href="${item.coverImage}" data-lightbox-image="${item.coverImage}" data-lightbox-alt="Naslovna strana za ${item.localName}">
             <img src="${item.coverThumb}" alt="Naslovna strana za ${item.localName}" width="50">
             <span>Naslovna strana</span>
+            <span>Cover</span>
           </a>
           <a class="thumb-link" href="${item.firstPageImage}" data-lightbox-image="${item.firstPageImage}" data-lightbox-alt="Prva strana za ${item.localName}">
             <img src="${item.firstPageThumb}" alt="Prva strana za ${item.localName}" width="50">
             <span>Prva strana</span>
+            <span>First page</span>
           </a>
         </div>
       </article>
@@ -129,14 +209,22 @@
   function mountCatalog(key) {
     const database = databases[key];
     const title = document.getElementById("catalog-title");
+    const englishTitle = document.getElementById("catalog-title-english");
     const description = document.getElementById("catalog-description");
+    const englishDescription = document.getElementById("catalog-description-english");
     const input = document.getElementById("catalog-search");
     const stats = document.getElementById("catalog-stats");
     const list = document.getElementById("catalog-list");
     const items = sortItems(database.items);
 
     title.textContent = database.title;
+    if (englishTitle) {
+      englishTitle.textContent = database.englishTitle;
+    }
     description.textContent = database.description;
+    if (englishDescription) {
+      englishDescription.textContent = database.englishDescription;
+    }
 
     function render() {
       const query = normalizeText(input.value);
@@ -149,10 +237,18 @@
         return haystack.includes(query);
       });
 
-      stats.textContent = `Prikazano ${filtered.length} jezika od ${items.length}.`;
+      stats.innerHTML = `
+        <span>Prikazano ${formatSerbianCount(filtered.length, { one: "jezik", few: "jezika", many: "jezika" })} od ${formatSerbianCount(items.length, { one: "jezika", few: "jezika", many: "jezika" })}.</span>
+        <span>Showing ${formatEnglishCount(filtered.length, "language", "languages")} out of ${formatEnglishCount(items.length, "language", "languages")}.</span>
+      `;
 
       if (filtered.length === 0) {
-        list.innerHTML = '<div class="empty-state">Nema rezultata za uneti pojam.</div>';
+        list.innerHTML = `
+          <div class="empty-state">
+            <span>Nema rezultata za uneti pojam.</span>
+            <span>No results for the entered term.</span>
+          </div>
+        `;
         return;
       }
 

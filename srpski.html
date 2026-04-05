@@ -10,11 +10,26 @@
     <div class="page-shell">
       <header class="hero hero-compact">
         <p class="eyebrow">Srpska izdanja</p>
+        <p class="eyebrow eyebrow-english">Serbian Editions</p>
         <h1 id="catalog-title"></h1>
-        <p id="catalog-description" class="hero-copy"></p>
+        <h2 id="catalog-title-english" class="catalog-subtitle"></h2>
+        <div class="bilingual-grid hero-grid">
+          <div class="language-column">
+            <p id="catalog-description" class="hero-copy"></p>
+          </div>
+          <div class="language-column">
+            <p id="catalog-description-english" class="hero-copy"></p>
+          </div>
+        </div>
         <div class="hero-nav">
-          <a class="section-link" href="new.html">Nazad na naslovnu</a>
-          <a class="section-link" href="strani.html">Idi na strane jezike</a>
+          <a class="section-link" href="index.html">
+            <span>Nazad na naslovnu</span>
+            <span>Back to home</span>
+          </a>
+          <a class="section-link" href="strani.html">
+            <span>Idi na strane jezike</span>
+            <span>Go to other languages</span>
+          </a>
         </div>
       </header>
 
@@ -23,7 +38,8 @@
           <div class="toolbar">
             <label class="search-field" for="catalog-search">
               <span>Pretraga jezika</span>
-              <input id="catalog-search" type="search" placeholder="Unesi naziv jezika">
+              <span>Search languages</span>
+              <input id="catalog-search" type="search" placeholder="Unesi naziv jezika / Enter language name">
             </label>
             <p class="stats" id="catalog-stats"></p>
           </div>

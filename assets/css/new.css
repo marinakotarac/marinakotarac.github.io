@@ -88,9 +88,18 @@ img {
   border-radius: 32px;
 }
 
+.hero-grid {
+  margin-top: 24px;
+}
+
 .hero-compact h1 {
   max-width: none;
   font-size: clamp(2.4rem, 5vw, 4.2rem);
+}
+
+.catalog-subtitle {
+  margin-bottom: 0;
+  color: var(--accent-strong);
 }
 
 .hero-nav {
@@ -129,6 +138,12 @@ h2 {
   margin-bottom: 10px;
 }
 
+h3 {
+  font-size: clamp(1.35rem, 2.6vw, 1.85rem);
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+
 .hero-copy,
 .section-copy,
 .intro-panel p,
@@ -146,7 +161,7 @@ h2 {
 
 .summary-card {
   padding: 22px;
-  border-radius: 24px;
+  border-radius: 14px;
   border: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.72));
   text-decoration: none;
@@ -166,16 +181,22 @@ h2 {
 }
 
 .summary-card span {
+  display: block;
   color: var(--muted);
 }
 
 .summary-card .count {
-  display: inline-flex;
+  display: grid;
+  gap: 2px;
   margin-top: 16px;
   padding: 6px 12px;
-  border-radius: 999px;
+  border-radius: 10px;
   background: color-mix(in srgb, var(--accent) 26%, white);
   color: var(--text);
+}
+
+.summary-card .count span {
+  display: block;
 }
 
 .content {
@@ -184,10 +205,31 @@ h2 {
   margin-top: 24px;
 }
 
+.bilingual-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.language-column {
+  display: grid;
+  gap: 14px;
+}
+
 .intro-panel,
 .catalog-section {
   border-radius: 28px;
   padding: 32px;
+}
+
+.story-section p {
+  margin-bottom: 0;
+}
+
+.collection-subsection {
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
 }
 
 .section-heading,
@@ -203,11 +245,13 @@ h2 {
 }
 
 .section-link {
+  display: grid;
+  gap: 2px;
   white-space: nowrap;
   align-self: center;
   padding: 10px 16px;
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 10px;
   text-decoration: none;
   background: var(--surface-strong);
 }
@@ -240,8 +284,11 @@ h2 {
 }
 
 .stats {
+  display: grid;
+  gap: 2px;
   margin-bottom: 0;
   color: var(--muted);
+  text-align: right;
 }
 
 .results-grid {
@@ -279,6 +326,20 @@ h2 {
   text-decoration: underline;
 }
 
+@media (max-width: 760px) {
+  .hero,
+  .intro-panel,
+  .catalog-section {
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .bilingual-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
 .thumb-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -309,6 +370,10 @@ h2 {
   border: 1px dashed var(--line);
   color: var(--muted);
   background: rgba(255, 255, 255, 0.55);
+}
+
+.eyebrow-english {
+  margin-top: -4px;
 }
 
 .lightbox-overlay {
@@ -359,5 +424,9 @@ h2 {
   .section-heading,
   .toolbar {
     align-items: start;
+  }
+
+  .stats {
+    text-align: left;
   }
 }
