@@ -3,6 +3,16 @@ window.BOOK_DATABASES_SERBIAN = {
     "title": "Knjige na srpskom jeziku",
     "description": "Izdanja na srpskom jeziku iz fizicke kolekcije Marine Kotarac, ukljucujuci latinicu, cirilicu i posebna izdanja.",
     "items": [
+         {
+        "localName": "Srpski ćirilica",
+        "englishName": "Serbian Cyrillic",
+        "title": "Мали принц",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
+        "coverImage": "naslovna/srpski-cirilica_sabac.jpg",
+        "coverThumb": "naslovna_th/srpski-cirilica_sabac.jpg",
+        "firstPageImage": "prva/srpski-cirilica_sabac.jpg",
+        "firstPageThumb": "prva_th/srpski-cirilica_sabac.jpg"
+      },
         {
         "localName": "Srpski ćirilica",
         "englishName": "Serbian Cyrillic",
