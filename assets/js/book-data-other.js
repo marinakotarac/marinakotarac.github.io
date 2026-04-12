@@ -3,6 +3,16 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+           {
+        "localName": "Litvanski džukijski dijalekt",
+        "englishName": "Lithuanian Dzūkian dialect",
+        "title": "Mažulis princas",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Dz%C5%ABkian_dialect",
+        "coverImage": "naslovna/litvanski-dzukijski_dijalekt.jpg",
+        "coverThumb": "naslovna_th/litvanski-dzukijski_dijalekt.jpg",
+        "firstPageImage": "prva/litvanski-dzukijski_dijalekt.jpg",
+        "firstPageThumb": "prva_th/litvanski-dzukijski_dijalekt.jpg"
+      },
          {
         "localName": "Litvanski istočno gorštački",
         "englishName": "Lithuanian from the Eastern Highlanders",
