@@ -3,6 +3,16 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+         {
+        "localName": "Litvanski istočno gorštački",
+        "englishName": "Lithuanian from the Eastern Highlanders",
+        "title": "Mā̃žasiai princas",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Auk%C5%A1taitija",
+        "coverImage": "naslovna/litvanski-istocno_gorstacki.jpg",
+        "coverThumb": "naslovna_th/litvanski-istocno_gorstacki.jpg",
+        "firstPageImage": "prva/litvanski-istocno_gorstacki.jpg",
+        "firstPageThumb": "prva_th/litvanski-istocno_gorstacki.jpg"
+      },
       {
         "localName": "Afrikans jezik",
         "englishName": "Afrikaans language",
