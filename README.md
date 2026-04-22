@@ -3,36 +3,40 @@
 Ovaj projekat sada ima dve verzije prikaza:
 
 - `index.html` je nova, aktivna naslovna strana sajta.
-- `old.html` je sacuvani stari prikaz.
 - `srpski.html` je nova strana za knjige na srpskom jeziku.
 - `strani.html` je nova strana za knjige na drugim jezicima.
+- `razmena.html` je posebna strana za knjige namenjene razmeni.
 
 Glavni izvori podataka su:
 
 - `assets/js/book-data-serbian.js`
 - `assets/js/book-data-other.js`
+- `assets/js/book-data-exchange.js`
 
 Stilovi su u:
 
-- `assets/css/new.css`
+- `assets/css/site.css`
 
 Logika prikaza, pretrage, statistike, mnozina i tema je u:
 
-- `assets/js/new.js`
+- `assets/js/site.js`
 
 
 # 1. Kako su organizovane baze
 
-Podaci su sada razdvojeni u dva posebna fajla:
+Podaci su sada razdvojeni u tri posebna fajla:
 
 - `assets/js/book-data-serbian.js`
 - `assets/js/book-data-other.js`
+- `assets/js/book-data-exchange.js`
 
-To olaksava uredjivanje zato sto se srpska i strana izdanja menjaju odvojeno.
+To olaksava uredjivanje zato sto se srpska izdanja, strani jezici i knjige za razmenu menjaju odvojeno.
 
 U fajlu `assets/js/book-data-serbian.js` nalazi se samo srpska baza.
 
 U fajlu `assets/js/book-data-other.js` nalazi se samo baza za ostale jezike.
+
+U fajlu `assets/js/book-data-exchange.js` nalazi se baza za razmenu.
 
 Svaka baza ima istu strukturu:
 
@@ -59,12 +63,13 @@ Svaka knjiga izgleda ovako:
 ```
 
 
-# 2. Kako odluciti da li knjiga ide u srpsku ili stranu bazu
+# 2. Kako odluciti da li knjiga ide u srpsku, stranu ili exchange bazu
 
 Pravilo u ovom projektu je jednostavno:
 
 - Ako je izdanje na srpskom, ide u bazu `serbian`.
 - Ako je izdanje na bilo kom drugom jeziku, ide u bazu `other`.
+- Ako je knjiga namenjena razmeni, ide u bazu `exchange`, bez obzira na jezik.
 
 Primeri za `serbian`:
 
@@ -79,6 +84,12 @@ Primeri za `other`:
 - `Japanski`
 - `Esperanto`
 - bilo koji drugi nesrpski jezik
+
+Primeri za `exchange`:
+
+- duplikati iz kolekcije
+- primerci namenjeni kolekcionarskoj razmeni
+- knjige cije slike stoje u folderu `razmena/`
 
 
 # 3. Kako dodati novu knjigu - korak po korak
@@ -105,6 +116,13 @@ Bitno:
 - Ekstenzija treba da bude ista svuda, na primer `.jpg`.
 - Ako thumbnail ne postoji, prikaz ce puknuti za tu stavku.
 
+Za bazu razmene ista logika vazi, samo se slike smestaju u:
+
+- `razmena/naslovna/`
+- `razmena/naslovna_th/`
+- `razmena/prva/`
+- `razmena/prva_th/`
+
 
 ## Korak 2: otvori odgovarajucu bazu podataka
 
@@ -115,6 +133,10 @@ Ako dodajes srpsku knjigu, otvori:
 Ako dodajes knjigu na stranom jeziku, otvori:
 
 - `assets/js/book-data-other.js`
+
+Ako dodajes knjigu za razmenu, otvori:
+
+- `assets/js/book-data-exchange.js`
 
 U tom fajlu pronadji:
 
@@ -137,6 +159,14 @@ Ako je nova knjiga na stranom jeziku, dodaj je u:
 
 ```js
 window.BOOK_DATABASES_OTHER = {
+  ...
+  items: [
+```
+
+Ako je knjiga za razmenu, dodaj je u:
+
+```js
+window.BOOK_DATABASES_EXCHANGE = {
   ...
   items: [
 ```
@@ -176,6 +206,21 @@ Primer za strani jezik:
 }
 ```
 
+Primer za razmenu:
+
+```js
+{
+  "localName": "Francuski jezik",
+  "englishName": "French language",
+  "title": "Le Petit prince",
+  "wikiUrl": "https://en.wikipedia.org/wiki/French_language",
+  "coverImage": "razmena/naslovna/francuski_1.jpg",
+  "coverThumb": "razmena/naslovna_th/francuski_1.jpg",
+  "firstPageImage": "razmena/prva/francuski_1.jpg",
+  "firstPageThumb": "razmena/prva_th/francuski_1.jpg"
+}
+```
+
 Bitno:
 
 - Obrati paznju na zareze izmedju slogova.
@@ -201,10 +246,11 @@ Ako hoces da promenis postojecu stavku:
 
 1. Ako je srpska knjiga, otvori `assets/js/book-data-serbian.js`.
 2. Ako je strana knjiga, otvori `assets/js/book-data-other.js`.
-3. Pronadji knjigu po imenu jezika ili po nazivu fajla slike.
-4. Izmeni zeljeno polje.
-5. Sacuvaj fajl.
-6. Osvezi stranicu u browseru.
+3. Ako je knjiga za razmenu, otvori `assets/js/book-data-exchange.js`.
+4. Pronadji knjigu po imenu jezika ili po nazivu fajla slike.
+5. Izmeni zeljeno polje.
+6. Sacuvaj fajl.
+7. Osvezi stranicu u browseru.
 
 Najlakse pretrage su po:
 
@@ -217,10 +263,11 @@ Najlakse pretrage su po:
 
 1. Ako je srpska knjiga, otvori `assets/js/book-data-serbian.js`.
 2. Ako je strana knjiga, otvori `assets/js/book-data-other.js`.
-3. Pronadji ceo objekat te knjige.
-4. Obrisi ceo objekat.
-5. Proveri da li su zarezi ostali ispravni pre i posle tog mesta.
-6. Sacuvaj fajl.
+3. Ako je knjiga za razmenu, otvori `assets/js/book-data-exchange.js`.
+4. Pronadji ceo objekat te knjige.
+5. Obrisi ceo objekat.
+6. Proveri da li su zarezi ostali ispravni pre i posle tog mesta.
+7. Sacuvaj fajl.
 
 Ako zelis, posle toga mozes i rucno obrisati slike iz:
 
@@ -228,6 +275,13 @@ Ako zelis, posle toga mozes i rucno obrisati slike iz:
 - `naslovna_th/`
 - `prva/`
 - `prva_th/`
+
+Ako je to knjiga iz razmene, slike su umesto toga u:
+
+- `razmena/naslovna/`
+- `razmena/naslovna_th/`
+- `razmena/prva/`
+- `razmena/prva_th/`
 
 To nije obavezno za prikaz, ali je dobro za urednost projekta.
 
@@ -260,20 +314,23 @@ Tekstovi zaglavlja za srpsku i stranu bazu delom dolaze iz HTML fajlova:
 
 - `srpski.html`
 - `strani.html`
+- `razmena.html`
 
 Tekstovi i opisi baza, kao i deo dvojezicnog prikaza, dolaze iz:
 
 - `assets/js/book-data-serbian.js`
 - `assets/js/book-data-other.js`
+- `assets/js/book-data-exchange.js`
 
 Tacnije iz polja:
 
 - `window.BOOK_DATABASES_SERBIAN.description`
 - `window.BOOK_DATABASES_OTHER.description`
+- `window.BOOK_DATABASES_EXCHANGE.description`
 
 Dodatna logika prikaza je u:
 
-- `assets/js/new.js`
+- `assets/js/site.js`
 
 Tu su sada i:
 
@@ -287,7 +344,7 @@ Tu su sada i:
 Posle svake promene proveri sledece:
 
 1. Da li se stranica otvara bez greske.
-2. Da li nova knjiga postoji na pravoj strani, `srpski.html` ili `strani.html`.
+2. Da li nova knjiga postoji na pravoj strani, `srpski.html`, `strani.html` ili `razmena.html`.
 3. Da li pretraga nalazi tu knjigu.
 4. Da li rade linkovi ka Wikipediji.
 5. Da li rade velika slika naslovne i velika slika prve strane.
@@ -298,14 +355,14 @@ Posle svake promene proveri sledece:
 
 - Slike nisu ubacene u sva 4 foldera.
 - Naziv fajla nije isti u `naslovna`, `naslovna_th`, `prva`, `prva_th`.
-- Pogresno stavljen zarez u `assets/js/book-data-serbian.js` ili `assets/js/book-data-other.js`.
-- Knjiga je greskom ubacena u `serbian` umesto u `other`, ili obrnuto.
+- Pogresno stavljen zarez u `assets/js/book-data-serbian.js`, `assets/js/book-data-other.js` ili `assets/js/book-data-exchange.js`.
+- Knjiga je greskom ubacena u `serbian`, `other` ili `exchange` pogresnu bazu.
 - `wikiUrl` nije potpun link.
 
 
 # 11. Napomena o popup prikazu slika
 
-Na stranicama `srpski.html` i `strani.html` klik na thumbnail:
+Na stranicama `srpski.html`, `strani.html` i `razmena.html` klik na thumbnail:
 
 - ne otvara novi tab
 - otvara veliku sliku kao popup preko strane
@@ -319,7 +376,6 @@ Na stranicama `srpski.html` i `strani.html` klik na thumbnail:
 - `Kako je sve pocelo`
 - `O kolekciji`
 - `Cuvar digitalne biblioteke`
-- `Razmena`
 
 Na naslovnoj postoje 3 kartice:
 
@@ -327,7 +383,7 @@ Na naslovnoj postoje 3 kartice:
 - izdanja na drugim jezicima
 - knjige za razmenu
 
-`srpski.html` i `strani.html` imaju:
+`srpski.html`, `strani.html` i `razmena.html` imaju:
 
 - dvojezicno zaglavlje
 - dvojezicne navigacione linkove

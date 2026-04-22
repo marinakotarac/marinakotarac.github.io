@@ -10,6 +10,9 @@
       englishTitle: "Books in Other Languages",
       englishDescription: "Translations and multilingual editions from Marina Kotarac's physical collection in languages other than Serbian.",
     },
+    exchange: {
+      ...window.BOOK_DATABASES_EXCHANGE,
+    },
   };
   const themes = ["blue", "green", "red"];
 
@@ -85,34 +88,16 @@
         englishDescription: "Translations and multilingual editions from Marina Kotarac's physical collection.",
       },
       {
-        type: "static",
-        href: "#razmena",
-        title: "Knjige za razmenu",
-        description: "Poseban sektor za duplikate i izdanja namenjena budućim razmenama sa kolekcionarima.",
+        type: "database",
+        key: "exchange",
+        href: "razmena.html",
         englishTitle: "Books for Exchange",
-        englishDescription: "A dedicated section for duplicates and editions intended for future exchanges.",
-        countLabel: "Kontakt i najava budućih primeraka",
-        englishCountLabel: "Contact and upcoming exchange copies",
+        englishDescription: "Duplicate copies and books available for exchange with fellow collectors.",
       },
     ];
 
     container.innerHTML = sections
       .map((section) => {
-        if (section.type === "static") {
-          return `
-            <a class="summary-card" href="${section.href}">
-              <strong>${section.title}</strong>
-              <span>${section.description}</span>
-              <strong>${section.englishTitle}</strong>
-              <span>${section.englishDescription}</span>
-              <span class="count">
-                <span>${section.countLabel}</span>
-                <span>${section.englishCountLabel}</span>
-              </span>
-            </a>
-          `;
-        }
-
         const database = databases[section.key];
         return `
           <a class="summary-card" href="${section.href}">
@@ -221,7 +206,9 @@
     if (englishTitle) {
       englishTitle.textContent = database.englishTitle;
     }
-    description.textContent = database.description;
+    if (description) {
+      description.textContent = database.description;
+    }
     if (englishDescription) {
       englishDescription.textContent = database.englishDescription;
     }
