@@ -14,7 +14,7 @@ window.BOOK_DATABASES_EXCHANGE = {
       "coverThumb": "razmena/naslovna_th/grcki_2.jpg",
       "firstPageImage": "razmena/prva/grcki_2.jpg",
       "firstPageThumb": "razmena/prva_th/grcki_2.jpg"
-    }
+    },
     {
       "localName": "Alzaški donji Alemanski jezik",
       "englishName": "Alsatian lower Alemanic",
