@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
     {
+      "localName": "Grčki jezik",
+      "englishName": "Greek language",
+      "title": "Ο μικρός πρίγκιπας",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Greek_language",
+      "coverImage": "razmena/naslovna/grcki_2.jpg",
+      "coverThumb": "razmena/naslovna_th/grcki_2.jpg",
+      "firstPageImage": "razmena/prva/grcki_2.jpg",
+      "firstPageThumb": "razmena/prva_th/grcki_2.jpg"
+     },
+    {
       "localName": "Alzaški donji Alemanski jezik",
       "englishName": "Alsatian lower Alemanic",
       "title": "D'r kläin Prìnz",
