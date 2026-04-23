@@ -5,6 +5,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "description": "Duplikati i primerci namenjeni razmeni sa kolekcionarima, izdvojeni kao poseban katalog sa kontakt podacima.",
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
+     {
+        "localName": "Hrvatski jezik",
+        "englishName": "Croatian language",
+        "title": "Mali princ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Croatian_language",
+        "coverImage": "naslovna/hrvatski_2.jpg",
+        "coverThumb": "naslovna_th/hrvatski_2.jpg",
+        "firstPageImage": "prva/hrvatski_2.jpg",
+        "firstPageThumb": "prva_th/hrvatski_2.jpg"
+      },
     {
         "localName": "Holandski jezik",
         "englishName": "Dutch language",
