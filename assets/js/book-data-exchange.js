@@ -10,6 +10,16 @@ window.BOOK_DATABASES_EXCHANGE = {
         "englishName": "Croatian language",
         "title": "Mali princ",
         "wikiUrl": "https://en.wikipedia.org/wiki/Croatian_language",
+        "coverImage": "naslovna/hrvatski_Za_decu.jpg",
+        "coverThumb": "naslovna_th/hrvatski_Za_decu.jpg",
+        "firstPageImage": "prva/hrvatski_Za_decu.jpg",
+        "firstPageThumb": "prva_th/hrvatski_Za_decu.jpg"
+      },
+     {
+        "localName": "Hrvatski jezik",
+        "englishName": "Croatian language",
+        "title": "Mali princ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Croatian_language",
         "coverImage": "naslovna/hrvatski_1.jpg",
         "coverThumb": "naslovna_th/hrvatski_1.jpg",
         "firstPageImage": "prva/hrvatski_1.jpg",
