@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
     {
+        "localName": "Holandski jezik",
+        "englishName": "Dutch language",
+        "title": "De kleine prins",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Dutch_language",
+        "coverImage": "naslovna/holandski_1.jpg",
+        "coverThumb": "naslovna_th/holandski_1.jpg",
+        "firstPageImage": "prva/holandski_1.jpg",
+        "firstPageThumb": "prva_th/holandski_1.jpg"
+      },
+    {
         "localName": "Haketski jezik",
         "englishName": "Haketia language",
         "title": "El Prencipito",
