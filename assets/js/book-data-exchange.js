@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
     {
+        "localName": "Haketski jezik",
+        "englishName": "Haketia language",
+        "title": "El Prencipito",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Haketia",
+        "coverImage": "naslovna/haketia.jpg",
+        "coverThumb": "naslovna_th/haketia.jpg",
+        "firstPageImage": "prva/haketia.jpg",
+        "firstPageThumb": "prva_th/haketia.jpg"
+      },
+    {
       "localName": "Grčki jezik",
       "englishName": "Greek language",
       "title": "Ο μικρός πρίγκιπας",
