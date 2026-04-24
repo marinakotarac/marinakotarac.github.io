@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
     {
+        "localName": "Portugalski jezik",
+        "englishName": "Portuguese language",
+        "title": "O Principezinho",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Portuguese_language",
+        "coverImage": "razmena/naslovna/portugalski.jpg",
+        "coverThumb": "razmena/naslovna_th/portugalski.jpg",
+        "firstPageImage": "razmena/prva/portugalski.jpg",
+        "firstPageThumb": "razmena/prva_th/portugalski.jpg"
+      },
+    {
         "localName": "Makedonski jezik",
         "englishName": "Macedonian language",
         "title": "Малиот принц",
