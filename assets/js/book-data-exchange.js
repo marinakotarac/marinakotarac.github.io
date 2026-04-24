@@ -10,40 +10,40 @@ window.BOOK_DATABASES_EXCHANGE = {
         "englishName": "Croatian language",
         "title": "Mali princ",
         "wikiUrl": "https://en.wikipedia.org/wiki/Croatian_language",
-        "coverImage": "naslovna/hrvatski_Za_decu.jpg",
-        "coverThumb": "naslovna_th/hrvatski_Za_decu.jpg",
-        "firstPageImage": "prva/hrvatski_Za_decu.jpg",
-        "firstPageThumb": "prva_th/hrvatski_Za_decu.jpg"
+        "coverImage": "razmena/naslovna/hrvatski_Za_decu.jpg",
+        "coverThumb": "razmena/naslovna_th/hrvatski_Za_decu.jpg",
+        "firstPageImage": "razmena/prva/hrvatski_Za_decu.jpg",
+        "firstPageThumb": "razmena/prva_th/hrvatski_Za_decu.jpg"
       },
      {
         "localName": "Hrvatski jezik",
         "englishName": "Croatian language",
         "title": "Mali princ",
         "wikiUrl": "https://en.wikipedia.org/wiki/Croatian_language",
-        "coverImage": "naslovna/hrvatski_1.jpg",
-        "coverThumb": "naslovna_th/hrvatski_1.jpg",
-        "firstPageImage": "prva/hrvatski_1.jpg",
-        "firstPageThumb": "prva_th/hrvatski_1.jpg"
+        "coverImage": "razmena/naslovna/hrvatski_1.jpg",
+        "coverThumb": "razmena/naslovna_th/hrvatski_1.jpg",
+        "firstPageImage": "razmena/prva/hrvatski_1.jpg",
+        "firstPageThumb": "razmena/prva_th/hrvatski_1.jpg"
       },
     {
         "localName": "Holandski jezik",
         "englishName": "Dutch language",
         "title": "De kleine prins",
         "wikiUrl": "https://en.wikipedia.org/wiki/Dutch_language",
-        "coverImage": "naslovna/holandski_1.jpg",
-        "coverThumb": "naslovna_th/holandski_1.jpg",
-        "firstPageImage": "prva/holandski_1.jpg",
-        "firstPageThumb": "prva_th/holandski_1.jpg"
+        "coverImage": "razmena/naslovna/holandski_1.jpg",
+        "coverThumb": "razmena/naslovna_th/holandski_1.jpg",
+        "firstPageImage": "razmena/prva/holandski_1.jpg",
+        "firstPageThumb": "razmena/prva_th/holandski_1.jpg"
       },
     {
         "localName": "Haketski jezik",
         "englishName": "Haketia language",
         "title": "El Prencipito",
         "wikiUrl": "https://en.wikipedia.org/wiki/Haketia",
-        "coverImage": "naslovna/haketia.jpg",
-        "coverThumb": "naslovna_th/haketia.jpg",
-        "firstPageImage": "prva/haketia.jpg",
-        "firstPageThumb": "prva_th/haketia.jpg"
+        "coverImage": "razmena/naslovna/haketia.jpg",
+        "coverThumb": "razmena/naslovna_th/haketia.jpg",
+        "firstPageImage": "razmena/prva/haketia.jpg",
+        "firstPageThumb": "razmena/prva_th/haketia.jpg"
       },
     {
       "localName": "Grčki jezik",
