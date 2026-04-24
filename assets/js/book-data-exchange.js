@@ -10,6 +10,26 @@ window.BOOK_DATABASES_EXCHANGE = {
         "englishName": "Slovene language",
         "title": "Mali princ",
         "wikiUrl": "https://en.wikipedia.org/wiki/Slovene_language",
+        "coverImage": "razmena/naslovna/slovenacki_2.jpg",
+        "coverThumb": "razmena/naslovna_th/slovenacki_2.jpg",
+        "firstPageImage": "razmena/prva/slovenacki_2.jpg",
+        "firstPageThumb": "razmena/prva_th/slovenacki_2.jpg"
+      },
+    {
+        "localName": "Slovenački jezik",
+        "englishName": "Slovene language",
+        "title": "Mali princ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Slovene_language",
+        "coverImage": "razmena/naslovna/slovenacki_1.jpg",
+        "coverThumb": "razmena/naslovna_th/slovenacki_1.jpg",
+        "firstPageImage": "razmena/prva/slovenacki_1.jpg",
+        "firstPageThumb": "razmena/prva_th/slovenacki_1.jpg"
+      },
+    {
+        "localName": "Slovenački jezik",
+        "englishName": "Slovene language",
+        "title": "Mali princ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Slovene_language",
         "coverImage": "razmena/naslovna/slovenacki.jpg",
         "coverThumb": "razmena/naslovna_th/slovenacki.jpg",
         "firstPageImage": "razmena/prva/slovenacki.jpg",
