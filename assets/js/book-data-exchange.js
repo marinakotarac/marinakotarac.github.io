@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
     {
+        "localName": "Slovenački jezik",
+        "englishName": "Slovene language",
+        "title": "Mali princ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Slovene_language",
+        "coverImage": "razmena/naslovna/slovenacki.jpg",
+        "coverThumb": "razmena/naslovna_th/slovenacki.jpg",
+        "firstPageImage": "razmena/prva/slovenacki.jpg",
+        "firstPageThumb": "razmena/prva_th/slovenacki.jpg"
+      },
+    {
         "localName": "Samogitski jezik",
         "englishName": "Samogitian language",
         "title": "Mažāsis Princos",
