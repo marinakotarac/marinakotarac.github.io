@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
      {
+        "localName": "Ruski jezik",
+        "englishName": "Russian language",
+        "title": "Маленький принц",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Russian_language",
+        "coverImage": "razmena/naslovna/ruski.jpg",
+        "coverThumb": "razmena/naslovna_th/ruski.jpg",
+        "firstPageImage": "razmena/prva/ruski.jpg",
+        "firstPageThumb": "razmena/prva_th/ruski.jpg"
+      },
+     {
         "localName": "Rumunski jezik",
         "englishName": "Romanian language",
         "title": "Micul prinţ",
