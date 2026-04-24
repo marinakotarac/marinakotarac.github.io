@@ -5,6 +5,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "description": "Duplikati i primerci namenjeni razmeni sa kolekcionarima, izdvojeni kao poseban katalog sa kontakt podacima.",
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
+    {
+        "localName": "Samogitski jezik",
+        "englishName": "Samogitian language",
+        "title": "Mažāsis Princos",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Samogitian_language",
+        "coverImage": "razmena/naslovna/samogitski.jpg",
+        "coverThumb": "razmena/naslovna_th/samogitski.jpg",
+        "firstPageImage": "razmena/prva/samogitski.jpg",
+        "firstPageThumb": "razmena/prva_th/samogitski.jpg"
+      },
      {
         "localName": "Ruski jezik",
         "englishName": "Russian language",
