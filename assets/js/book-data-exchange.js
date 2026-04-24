@@ -10,6 +10,16 @@ window.BOOK_DATABASES_EXCHANGE = {
         "englishName": "Romanian language",
         "title": "Micul prinţ",
         "wikiUrl": "https://en.wikipedia.org/wiki/Romanian_language",
+        "coverImage": "razmena/naslovna/rumunski_3.jpg",
+        "coverThumb": "razmena/naslovna_th/rumunski_3.jpg",
+        "firstPageImage": "razmena/prva/rumunski_3.jpg",
+        "firstPageThumb": "razmena/prva_th/rumunski_3.jpg"
+      },
+     {
+        "localName": "Rumunski jezik",
+        "englishName": "Romanian language",
+        "title": "Micul prinţ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Romanian_language",
         "coverImage": "razmena/naslovna/rumunski_2.jpg",
         "coverThumb": "razmena/naslovna_th/rumunski_2.jpg",
         "firstPageImage": "razmena/prva/rumunski_2.jpg",
