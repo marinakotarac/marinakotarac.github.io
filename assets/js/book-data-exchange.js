@@ -5,6 +5,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "description": "Duplikati i primerci namenjeni razmeni sa kolekcionarima, izdvojeni kao poseban katalog sa kontakt podacima.",
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
+    {
+        "localName": "Islandski jezik",
+        "englishName": "Icelandic language",
+        "title": "Litli Prinsinn",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Icelandic_language",
+        "coverImage": "razmena/naslovna/islandski.jpg",
+        "coverThumb": "razmena/naslovna_th/islandski.jpg",
+        "firstPageImage": "razmena/prva/islandski.jpg",
+        "firstPageThumb": "razmena/prva_th/islandski.jpg"
+      },
      {
         "localName": "Hrvatski jezik",
         "englishName": "Croatian language",
