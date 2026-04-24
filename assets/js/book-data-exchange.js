@@ -10,6 +10,16 @@ window.BOOK_DATABASES_EXCHANGE = {
         "englishName": "Russian language",
         "title": "Маленький принц",
         "wikiUrl": "https://en.wikipedia.org/wiki/Russian_language",
+        "coverImage": "razmena/naslovna/ruski_1.jpg",
+        "coverThumb": "razmena/naslovna_th/ruski_1.jpg",
+        "firstPageImage": "razmena/prva/ruski_1.jpg",
+        "firstPageThumb": "razmena/prva_th/ruski_1.jpg"
+      },
+     {
+        "localName": "Ruski jezik",
+        "englishName": "Russian language",
+        "title": "Маленький принц",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Russian_language",
         "coverImage": "razmena/naslovna/ruski.jpg",
         "coverThumb": "razmena/naslovna_th/ruski.jpg",
         "firstPageImage": "razmena/prva/ruski.jpg",
