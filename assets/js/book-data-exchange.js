@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
     {
+        "localName": "Italijanski, Napolitanski Pičentino dijalekt",
+        "englishName": "Italian, Neapolitan dialect",
+        "title": "'O princepe nennillo",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Neapolitan_language",
+        "coverImage": "razmena/naslovna/italijanski-napolitanski_dijalekt.jpg",
+        "coverThumb": "razmena/naslovna_th/italijanski-napolitanski_dijalekt.jpg",
+        "firstPageImage": "razmena/prva/italijanski-napolitanski_dijalekt.jpg",
+        "firstPageThumb": "razmena/prva_th/italijanski-napolitanski_dijalekt.jpg"
+      },
+    {
         "localName": "Islandski jezik",
         "englishName": "Icelandic language",
         "title": "Litli Prinsinn",
