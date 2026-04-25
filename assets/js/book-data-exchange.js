@@ -10,6 +10,16 @@ window.BOOK_DATABASES_EXCHANGE = {
         "englishName": "Serbian Latin",
         "title": "Mali princ",
         "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_language",
+        "coverImage": "razmena/naslovna/srpski-latinica_vulkan10god.jpg",
+        "coverThumb": "razmena/naslovna_th/srpski-latinica_vulkan10god.jpg",
+        "firstPageImage": "razmena/prva/srpski-latinica_vulkan10god.jpg",
+        "firstPageThumb": "razmena/prva_th/srpski-latinica_vulkan10god.jpg"
+      },
+     {
+        "localName": "Srpski latinica",
+        "englishName": "Serbian Latin",
+        "title": "Mali princ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_language",
         "coverImage": "razmena/naslovna/srpski-latinica_vulkan.jpg",
         "coverThumb": "razmena/naslovna_th/srpski-latinica_vulkan.jpg",
         "firstPageImage": "razmena/prva/srpski-latinica_vulkan.jpg",
