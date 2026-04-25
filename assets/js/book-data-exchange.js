@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
      {
+        "localName": "Turski jezik",
+        "englishName": "Turkish language",
+        "title": "Küçük prens",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Turkish_language",
+        "coverImage": "razmena/naslovna/turski.jpg",
+        "coverThumb": "razmena/naslovna_th/turski.jpg",
+        "firstPageImage": "razmena/prva/turski.jpg",
+        "firstPageThumb": "razmena/prva_th/turski.jpg"
+      },
+     {
         "localName": "Srpski latinica",
         "englishName": "Serbian Latin",
         "title": "Mali princ",
