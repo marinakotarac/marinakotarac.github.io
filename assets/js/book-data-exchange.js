@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
      {
+        "localName": "Španski jezik/Francuski jezik",
+        "englishName": "Spanish language/French language",
+        "title": "El Principito/Le petit prince",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Spanish_language",
+        "coverImage": "razmena/naslovna/spanski-francuski.jpg",
+        "coverThumb": "razmena/naslovna_th/spanski-francuski.jpg",
+        "firstPageImage": "razmena/prva/spanski-francuski.jpg",
+        "firstPageThumb": "razmena/prva_th/spanski-francuski.jpg"
+      },
+     {
         "localName": "Španski jezik",
         "englishName": "Spanish language",
         "title": "El Principito",
