@@ -10,6 +10,16 @@ window.BOOK_DATABASES_EXCHANGE = {
         "englishName": "Spanish language",
         "title": "El Principito",
         "wikiUrl": "https://en.wikipedia.org/wiki/Spanish_language",
+        "coverImage": "razmena/naslovna/spanski_1.jpg",
+        "coverThumb": "razmena/naslovna_th/spanski_1.jpg",
+        "firstPageImage": "razmena/prva/spanski_1.jpg",
+        "firstPageThumb": "razmena/prva_th/spanski_1.jpg"
+      },
+     {
+        "localName": "Španski jezik",
+        "englishName": "Spanish language",
+        "title": "El Principito",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Spanish_language",
         "coverImage": "razmena/naslovna/spanski.jpg",
         "coverThumb": "razmena/naslovna_th/spanski.jpg",
         "firstPageImage": "razmena/prva/spanski.jpg",
