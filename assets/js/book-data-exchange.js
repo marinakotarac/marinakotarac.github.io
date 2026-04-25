@@ -5,6 +5,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "description": "Duplikati i primerci namenjeni razmeni sa kolekcionarima, izdvojeni kao poseban katalog sa kontakt podacima.",
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
+    {
+        "localName": "Srpski latinica",
+        "englishName": "Serbian Latin",
+        "title": "Mali princ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_language",
+        "coverImage": "razmena/naslovna/srpaki-latinica_pinta.jpg",
+        "coverThumb": "razmena/naslovna_th/srpaki-latinica_pinta.jpg",
+        "firstPageImage": "razmena/prva/srpaki-latinica_pinta.jpg",
+        "firstPageThumb": "razmena/prva_th/srpaki-latinica_pinta.jpg"
+      },
      {
         "localName": "Španski jezik/Francuski jezik",
         "englishName": "Spanish language/French language",
