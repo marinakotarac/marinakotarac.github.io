@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
      {
+        "localName": "Mađarski jezik",
+        "englishName": "Hungarian language",
+        "title": "A Kis herceg",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Hungarian_language",
+        "coverImage": "razmena/naslovna/madjarski.jpg",
+        "coverThumb": "razmena/naslovna_th/madjarski.jpg",
+        "firstPageImage": "razmena/prva/madjarski.jpg",
+        "firstPageThumb": "razmena/prva_th/madjarski.jpg"
+      },
+     {
         "localName": "Turski jezik",
         "englishName": "Turkish language",
         "title": "Küçük prens",
