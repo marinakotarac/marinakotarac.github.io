@@ -5,6 +5,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "description": "Duplikati i primerci namenjeni razmeni sa kolekcionarima, izdvojeni kao poseban katalog sa kontakt podacima.",
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
+     {
+        "localName": "Španski jezik",
+        "englishName": "Spanish language",
+        "title": "El Principito",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Spanish_language",
+        "coverImage": "razmena/naslovna/spanski.jpg",
+        "coverThumb": "razmena/naslovna_th/spanski.jpg",
+        "firstPageImage": "razmena/prva/spanski.jpg",
+        "firstPageThumb": "razmena/prva_th/spanski.jpg"
+      },
     {
         "localName": "Slovenački jezik",
         "englishName": "Slovene language",
