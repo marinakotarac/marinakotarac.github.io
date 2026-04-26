@@ -5,6 +5,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "description": "Duplikati i primerci namenjeni razmeni sa kolekcionarima, izdvojeni kao poseban katalog sa kontakt podacima.",
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
+     {
+        "localName": "Srpski ćirilica ",
+        "englishName": "Serbian Cyrillic",
+        "title": "Мали принц",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
+        "coverImage": "razmena/naslovna/srpski-cirilica_poligraf.jpg",
+        "coverThumb": "razmena/naslovna_th/srpski-cirilica_poligraf.jpg",
+        "firstPageImage": "razmena/prva/srpski-cirilica_poligraf.jpg",
+        "firstPageThumb": "razmena/prva_th/srpski-cirilica_poligraf.jpg"
+      },
     {
         "localName": "Haketski jezik (2017.)",
         "englishName": "Haketia language",
