@@ -10,6 +10,16 @@ window.BOOK_DATABASES_EXCHANGE = {
         "englishName": "Serbian Cyrillic",
         "title": "Мали принц",
         "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
+        "coverImage": "razmena/naslovna/srpski-cirilica_legenda.jpg",
+        "coverThumb": "razmena/naslovna_th/srpski-cirilica_legenda.jpg",
+        "firstPageImage": "razmena/prva/srpski-cirilica_legenda.jpg",
+        "firstPageThumb": "razmena/prva_th/srpski-cirilica_legenda.jpg"
+      },
+     {
+        "localName": "Srpski ćirilica ",
+        "englishName": "Serbian Cyrillic",
+        "title": "Мали принц",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
         "coverImage": "razmena/naslovna/srpski-cirilica_poligraf.jpg",
         "coverThumb": "razmena/naslovna_th/srpski-cirilica_poligraf.jpg",
         "firstPageImage": "razmena/prva/srpski-cirilica_poligraf.jpg",
