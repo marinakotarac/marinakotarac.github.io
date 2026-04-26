@@ -6,7 +6,7 @@ window.BOOK_DATABASES_SERBIAN = {
         {
         "localName": "Srpski latinica/Engleski jezik",
         "englishName": "Serbian Latin/English language",
-        "title": "Mali princ/The Little prince",
+        "title": "Mali princ/The Little Prince",
         "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_language",
         "coverImage": "naslovna/srpski_latinica_monart.jpg",
         "coverThumb": "naslovna_th/srpski_latinica_monart.jpg",
