@@ -5,6 +5,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "description": "Duplikati i primerci namenjeni razmeni sa kolekcionarima, izdvojeni kao poseban katalog sa kontakt podacima.",
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
+    {
+        "localName": "Haketski jezik (2017.)",
+        "englishName": "Haketia language",
+        "title": "El Prencipito",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Haketia",
+        "coverImage": "razmena/naslovna/haketski.jpg",
+        "coverThumb": "razmena/naslovna_th/haketski.jpg",
+        "firstPageImage": "razmena/prva/haketski.jpg",
+        "firstPageThumb": "razmena/prva_th/haketski.jpg"
+      },
      {
         "localName": "Mađarski jezik",
         "englishName": "Hungarian language",
@@ -326,7 +336,7 @@ window.BOOK_DATABASES_EXCHANGE = {
         "firstPageThumb": "razmena/prva_th/holandski_1.jpg"
       },
     {
-        "localName": "Haketski jezik",
+        "localName": "Haketski jezik (2019.)",
         "englishName": "Haketia language",
         "title": "El Prencipito",
         "wikiUrl": "https://en.wikipedia.org/wiki/Haketia",
