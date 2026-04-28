@@ -35,16 +35,6 @@ window.BOOK_DATABASES_EXCHANGE = {
         "firstPageImage": "razmena/prva/srpski-cirilica_poligraf.jpg",
         "firstPageThumb": "razmena/prva_th/srpski-cirilica_poligraf.jpg"
       },
-    {
-        "localName": "Haketski jezik (2017.)",
-        "englishName": "Haketia language",
-        "title": "El Prencipito",
-        "wikiUrl": "https://en.wikipedia.org/wiki/Haketia",
-        "coverImage": "razmena/naslovna/haketski.jpg",
-        "coverThumb": "razmena/naslovna_th/haketski.jpg",
-        "firstPageImage": "razmena/prva/haketski.jpg",
-        "firstPageThumb": "razmena/prva_th/haketski.jpg"
-      },
      {
         "localName": "Mađarski jezik",
         "englishName": "Hungarian language",
@@ -345,16 +335,6 @@ window.BOOK_DATABASES_EXCHANGE = {
         "firstPageImage": "razmena/prva/hrvatski_Za_decu.jpg",
         "firstPageThumb": "razmena/prva_th/hrvatski_Za_decu.jpg"
       },
-     {
-        "localName": "Hrvatski jezik",
-        "englishName": "Croatian language",
-        "title": "Mali princ",
-        "wikiUrl": "https://en.wikipedia.org/wiki/Croatian_language",
-        "coverImage": "razmena/naslovna/hrvatski_1.jpg",
-        "coverThumb": "razmena/naslovna_th/hrvatski_1.jpg",
-        "firstPageImage": "razmena/prva/hrvatski_1.jpg",
-        "firstPageThumb": "razmena/prva_th/hrvatski_1.jpg"
-      },
     {
         "localName": "Holandski jezik",
         "englishName": "Dutch language",
@@ -364,16 +344,6 @@ window.BOOK_DATABASES_EXCHANGE = {
         "coverThumb": "razmena/naslovna_th/holandski_1.jpg",
         "firstPageImage": "razmena/prva/holandski_1.jpg",
         "firstPageThumb": "razmena/prva_th/holandski_1.jpg"
-      },
-    {
-        "localName": "Haketski jezik (2019.)",
-        "englishName": "Haketia language",
-        "title": "El Prencipito",
-        "wikiUrl": "https://en.wikipedia.org/wiki/Haketia",
-        "coverImage": "razmena/naslovna/haketia.jpg",
-        "coverThumb": "razmena/naslovna_th/haketia.jpg",
-        "firstPageImage": "razmena/prva/haketia.jpg",
-        "firstPageThumb": "razmena/prva_th/haketia.jpg"
       },
     {
       "localName": "Grčki jezik",
