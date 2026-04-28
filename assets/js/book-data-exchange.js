@@ -424,16 +424,7 @@ window.BOOK_DATABASES_EXCHANGE = {
       "coverThumb": "razmena/naslovna_th/francuski_1.jpg",
       "firstPageImage": "razmena/prva/francuski_1.jpg",
       "firstPageThumb": "razmena/prva_th/francuski_1.jpg"
-    },
-    {
-      "localName": "Grčki jezik",
-      "englishName": "Greek language",
-      "title": "Ο μικρός πρίγκιπας",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Greek_language",
-      "coverImage": "razmena/naslovna/grcki_1.jpg",
-      "coverThumb": "razmena/naslovna_th/grcki_1.jpg",
-      "firstPageImage": "razmena/prva/grcki_1.jpg",
-      "firstPageThumb": "razmena/prva_th/grcki_1.jpg"
     }
+   
   ]
 };
