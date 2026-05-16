@@ -5,6 +5,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "description": "Duplikati i primerci namenjeni razmeni sa kolekcionarima, izdvojeni kao poseban katalog sa kontakt podacima.",
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
+    {
+        "localName": "Ruski jezik",
+        "englishName": "Russian language",
+        "title": "Маленький принц",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Russian_language",
+        "coverImage": "razmena/naslovna/ruski_2.jpg",
+        "coverThumb": "razmena/naslovna_th/ruski_2.jpg",
+        "firstPageImage": "razmena/prva/ruski_2.jpg",
+        "firstPageThumb": "razmena/prva_th/ruski_2.jpg"
+      },
       {
         "localName": "Srpski ćirilica ",
         "englishName": "Serbian Cyrillic",
