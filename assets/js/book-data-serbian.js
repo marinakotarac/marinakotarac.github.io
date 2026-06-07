@@ -3,6 +3,16 @@ window.BOOK_DATABASES_SERBIAN = {
     "title": "Knjige na srpskom jeziku",
     "description": "Izdanja na srpskom jeziku iz fizicke kolekcije Marine Kotarac, ukljucujuci latinicu, cirilicu i posebna izdanja.",
     "items": [
+         {
+        "localName": "Srpski latinica",
+        "englishName": "Serbian Latin",
+        "title": "Mali princ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_language",
+        "coverImage": "naslovna/srpski_latinica_marso.jpg",
+        "coverThumb": "naslovna_th/srpski_latinica_marso.jpg",
+        "firstPageImage": "prva/srpski_latinica_marso.jpg",
+        "firstPageThumb": "prva_th/srpski_latinica_marso.jpg"
+      },
         {
         "localName": "Srpski ćirilica",
         "englishName": "Serbian Cyrillic",
