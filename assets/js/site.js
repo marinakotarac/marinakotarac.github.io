@@ -23,14 +23,66 @@
       .replace(/[\u0300-\u036f]/g, "");
   }
 
-  function sortItems(items) {
-    return [...items].sort((left, right) => {
-      const byName = left.localName.localeCompare(right.localName, "sr", { sensitivity: "accent" });
-      if (byName !== 0) {
-        return byName;
+  // Redosled srpske latinice (gajica), uključujući digrafe dž, lj, nj.
+  // ICU kolacija ("sr") je prvenstveno ćirilička, pa š/č/ć/ž/đ tretira kao
+  // varijante osnovnog slova i meša ih sa s/c/z/d. Zato gradimo sopstveni
+  // ključ za sortiranje koji svako slovo svrstava na pravo mesto.
+  const SERBIAN_LATIN_ORDER = [
+    "a", "b", "c", "č", "ć", "d", "dž", "đ", "e", "f", "g", "h", "i", "j",
+    "k", "l", "lj", "m", "n", "nj", "o", "p", "r", "s", "š", "t", "u", "v",
+    "z", "ž",
+  ];
+  const SERBIAN_LETTER_WEIGHTS = new Map(
+    SERBIAN_LATIN_ORDER.map((letter, index) => [letter, 10 + index])
+  );
+
+  function padWeight(weight) {
+    return String(weight).padStart(5, "0");
+  }
+
+  function serbianSortKey(value) {
+    const text = (value || "").toLocaleLowerCase("sr");
+    let key = "";
+    for (let i = 0; i < text.length; ) {
+      const digraph = text.substr(i, 2);
+      if (SERBIAN_LETTER_WEIGHTS.has(digraph)) {
+        key += padWeight(SERBIAN_LETTER_WEIGHTS.get(digraph));
+        i += 2;
+        continue;
       }
-      return left.title.localeCompare(right.title, "sr", { sensitivity: "accent" });
-    });
+      const char = text[i];
+      if (SERBIAN_LETTER_WEIGHTS.has(char)) {
+        key += padWeight(SERBIAN_LETTER_WEIGHTS.get(char));
+      } else if (char === " ") {
+        key += padWeight(5);
+      } else if (char === "-") {
+        key += padWeight(6);
+      } else {
+        // Nepoznata slova (npr. q, w, x, y ili druga pisma) idu posle poznatih.
+        key += padWeight(900 + (char.codePointAt(0) % 9000));
+      }
+      i += 1;
+    }
+    return key;
+  }
+
+  function sortItems(items) {
+    return [...items]
+      .map((item) => ({
+        item,
+        nameKey: serbianSortKey(item.localName),
+        titleKey: serbianSortKey(item.title),
+      }))
+      .sort((left, right) => {
+        if (left.nameKey !== right.nameKey) {
+          return left.nameKey < right.nameKey ? -1 : 1;
+        }
+        if (left.titleKey !== right.titleKey) {
+          return left.titleKey < right.titleKey ? -1 : 1;
+        }
+        return 0;
+      })
+      .map((entry) => entry.item);
   }
 
   function getSerbianPlural(value, forms) {
