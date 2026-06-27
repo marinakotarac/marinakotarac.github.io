@@ -25,11 +25,11 @@
 
   function sortItems(items) {
     return [...items].sort((left, right) => {
-      const byName = left.localName.localeCompare(right.localName, "sr", { sensitivity: "base" });
+      const byName = left.localName.localeCompare(right.localName, "sr", { sensitivity: "accent" });
       if (byName !== 0) {
         return byName;
       }
-      return left.title.localeCompare(right.title, "sr", { sensitivity: "base" });
+      return left.title.localeCompare(right.title, "sr", { sensitivity: "accent" });
     });
   }
 
