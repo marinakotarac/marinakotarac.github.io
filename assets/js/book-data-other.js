@@ -3,6 +3,16 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+         {
+        "localName": "Engleski, Jokširski dijalekt",
+        "englishName": "English, Yorkshire dialect",
+        "title": "T' Little Prince",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Yorkshire_dialect",
+        "coverImage": "naslovna/engleski_jorksirski.jpg",
+        "coverThumb": "naslovna_th/engleski_jorksirski.jpg",
+        "firstPageImage": "prva/engleski_jorksirski.jpg",
+        "firstPageThumb": "prva_th/engleski_jorksirski.jpg"
+      },
             {
         "localName": "Staroslovenski jezik",
         "englishName": "Old Church Slavonic",
