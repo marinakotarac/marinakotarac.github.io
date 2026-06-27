@@ -3,6 +3,16 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+            {
+        "localName": "Staroslovenski jezik",
+        "englishName": "Old Church Slavonic",
+        "title": "Кънѧжѧ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
+        "coverImage": "naslovna/staroslovenski.jpg",
+        "coverThumb": "naslovna_th/staroslovenski.jpg",
+        "firstPageImage": "prva/staroslovenski.jpg",
+        "firstPageThumb": "prva_th/staroslovenski.jpg"
+      },
            {
         "localName": "Litvanski džukijski dijalekt",
         "englishName": "Lithuanian Dzūkian dialect",
