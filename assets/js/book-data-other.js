@@ -4,6 +4,16 @@ window.BOOK_DATABASES_OTHER = {
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
          {
+        "localName": "Italijanski, Karareski dijalekt",
+        "englishName": "Italian dialect from Carrara",
+        "title": "Ii Prinƶp Pƶnin",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Carrara",
+        "coverImage": "naslovna/italijanski_karareski_dijalekt.jpg",
+        "coverThumb": "naslovna_th/italijanski_karareski_dijalekt.jpg",
+        "firstPageImage": "prva/italijanski_karareski_dijalekt.jpg",
+        "firstPageThumb": "prva_th/italijanski_karareski_dijalekt.jpg"
+      },
+         {
         "localName": "Azerski jezik, arapsko pismo",
         "englishName": "Azerbaijani language, Arabic script",
         "title": "بالاجا پرنس",
