@@ -3,6 +3,16 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+        {
+        "localName": "Katalonski jezik",
+        "englishName": "Catalan language",
+        "title": "El petit príncep",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Catalan_language",
+        "coverImage": "naslovna/katalonski_mini.jpg",
+        "coverThumb": "naslovna_th/katalonski_mini.jpg",
+        "firstPageImage": "prva/katalonski_mini.jpg",
+        "firstPageThumb": "prva_th/katalonski_mini.jpg"
+      },
          {
         "localName": "Italijanski, Karareški dijalekt",
         "englishName": "Italian dialect from Carrara",
