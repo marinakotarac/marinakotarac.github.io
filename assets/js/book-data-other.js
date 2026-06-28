@@ -4,7 +4,7 @@ window.BOOK_DATABASES_OTHER = {
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
          {
-        "localName": "Italijanski, Karareski dijalekt",
+        "localName": "Italijanski, Karareški dijalekt",
         "englishName": "Italian dialect from Carrara",
         "title": "Ii Prinƶp Pƶnin",
         "wikiUrl": "https://en.wikipedia.org/wiki/Carrara",
