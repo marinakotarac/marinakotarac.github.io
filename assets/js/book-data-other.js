@@ -4,6 +4,16 @@ window.BOOK_DATABASES_OTHER = {
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
          {
+        "localName": "Azerski jezik, arapsko pismo",
+        "englishName": "Azerbaijani language, Arabic script",
+        "title": "بالاجا پرنس",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Azerbaijani_language",
+        "coverImage": "naslovna/azerski_arapski.jpg",
+        "coverThumb": "naslovna_th/azerski_arapski.jpg",
+        "firstPageImage": "prva/azerski_arapski.jpg",
+        "firstPageThumb": "prva_th/azerski_arapski.jpg"
+      },
+         {
         "localName": "Engleski, Jokširski dijalekt",
         "englishName": "English, Yorkshire dialect",
         "title": "T' Little Prince",
