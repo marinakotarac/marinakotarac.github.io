@@ -4,6 +4,16 @@ window.BOOK_DATABASES_OTHER = {
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
         {
+        "localName": "Ruski jezik",
+        "englishName": "Russian language",
+        "title": "Маленький принц",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Russian_language",
+        "coverImage": "naslovna/ruski_2.jpg",
+        "coverThumb": "naslovna_th/ruski_2.jpg",
+        "firstPageImage": "prva/ruski_2.jpg",
+        "firstPageThumb": "prva_th/ruski_2.jpg"
+      },
+        {
         "localName": "Katalonski jezik",
         "englishName": "Catalan language",
         "title": "El petit príncep",
