@@ -3,6 +3,16 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+         {
+        "localName": "Gudžarati jezik",
+        "englishName": "Gujarati language",
+        "title": "ધ લિટલ પ્રિન્સ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Gujarati_language",
+        "coverImage": "naslovna/gudzarati.jpg",
+        "coverThumb": "naslovna_th/gudzarati.jpg",
+        "firstPageImage": "prva/gudzarati.jpg",
+        "firstPageThumb": "prva_th/gudzarati.jpg"
+      },
         {
         "localName": "Gondi jezik",
         "englishName": "Gondi language",
