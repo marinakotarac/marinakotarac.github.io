@@ -3,6 +3,26 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+          {
+        "localName": "Pali jezik",
+        "englishName": "Pali language",
+        "title": "จุลฺลราชปุตฺตวตฺถุ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Pali",
+        "coverImage": "naslovna/pali_2.jpg",
+        "coverThumb": "naslovna_th/pali_2.jpg",
+        "firstPageImage": "prva/pali_2.jpg",
+        "firstPageThumb": "prva_th/pali_2.jpg"
+      },
+         {
+        "localName": "Pali jezik",
+        "englishName": "Pali language",
+        "title": "จุลฺลราชปุตฺตวตฺถุ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Pali",
+        "coverImage": "naslovna/pali.jpg",
+        "coverThumb": "naslovna_th/pali.jpg",
+        "firstPageImage": "prva/pali.jpg",
+        "firstPageThumb": "prva_th/pali.jpg"
+      },
          {
         "localName": "Kuna ili Guna jezik",
         "englishName": "Kuna or Guna language",
