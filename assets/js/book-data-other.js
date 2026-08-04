@@ -4,6 +4,16 @@ window.BOOK_DATABASES_OTHER = {
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
         {
+        "localName": "Gondi jezik",
+        "englishName": "Gondi language",
+        "title": "चुडोल राजकुमार",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Gondi_language",
+        "coverImage": "naslovna/gondi.jpg",
+        "coverThumb": "naslovna_th/gondi.jpg",
+        "firstPageImage": "prva/gondi.jpg",
+        "firstPageThumb": "prva_th/gondi.jpg"
+      },
+        {
         "localName": "Ruski jezik",
         "englishName": "Russian language",
         "title": "Маленький принц",
