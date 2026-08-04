@@ -4,6 +4,16 @@ window.BOOK_DATABASES_OTHER = {
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
          {
+        "localName": "Kuna ili Guna jezik",
+        "englishName": "Kuna or Guna language",
+        "title": "Sagla Massi Bibbi",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Guna_language",
+        "coverImage": "naslovna/kuna_guna.jpg",
+        "coverThumb": "naslovna_th/kuna_guna.jpg",
+        "firstPageImage": "prva/kuna_guna.jpg",
+        "firstPageThumb": "prva_th/kuna_guna.jpg"
+      },
+         {
         "localName": "Gudžarati jezik",
         "englishName": "Gujarati language",
         "title": "ધ લિટલ પ્રિન્સ",
