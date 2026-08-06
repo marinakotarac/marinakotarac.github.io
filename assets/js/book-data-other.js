@@ -3,6 +3,16 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+        {
+        "localName": "Bislama jezik",
+        "englishName": "Bislama language",
+        "title": "Pikinini Jif",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Bislama",
+        "coverImage": "naslovna/bizlama.jpg",
+        "coverThumb": "naslovna_th/bizlama.jpg",
+        "firstPageImage": "prva/bizlama.jpg",
+        "firstPageThumb": "prva_th/bizlama.jpg"
+      },
          {
         "localName": "Češki, plzenski dijalekt",
         "englishName": "Plzeň dialect",
