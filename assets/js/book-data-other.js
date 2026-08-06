@@ -4,6 +4,16 @@ window.BOOK_DATABASES_OTHER = {
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
         {
+        "localName": "Tigrinja jezik",
+        "englishName": "Tigrinya language",
+        "title": "ብጹእ ንኡስ ልዑል ወራሲ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Tigrinya_language",
+        "coverImage": "naslovna/tigrinja.jpg",
+        "coverThumb": "naslovna_th/tigrinja.jpg",
+        "firstPageImage": "prva/tigrinja.jpg",
+        "firstPageThumb": "prva_th/tigrinja.jpg"
+      },
+        {
         "localName": "Bislama jezik",
         "englishName": "Bislama language",
         "title": "Pikinini Jif",
