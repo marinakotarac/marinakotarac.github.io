@@ -3,6 +3,16 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+         {
+        "localName": "Češki, plzenski dijalekt",
+        "englishName": "Plzeň dialect",
+        "title": "Tuten malej princ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Plze%C5%88_dialect",
+        "coverImage": "naslovna/plzenski_dijalekt.jpg",
+        "coverThumb": "naslovna_th/plzenski_dijalekt.jpg",
+        "firstPageImage": "prva/plzenski_dijalekt.jpg",
+        "firstPageThumb": "prva_th/plzenski_dijalekt.jpg"
+      },
         {
         "localName": "Nivakle jezik",
         "englishName": "Nivaclé language",
