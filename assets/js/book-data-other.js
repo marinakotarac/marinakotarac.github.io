@@ -3,6 +3,16 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+        {
+        "localName": "Nivakle jezik",
+        "englishName": "Nivaclé language",
+        "title": "Pa vatenach",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Nivacl%C3%A9_language",
+        "coverImage": "naslovna/nivakle.jpg",
+        "coverThumb": "naslovna_th/nivakle.jpg",
+        "firstPageImage": "prva/nivakle.jpg",
+        "firstPageThumb": "prva_th/nivakle.jpg"
+      },
          {
         "localName": "Mokenski jezik",
         "englishName": "Moken language",
