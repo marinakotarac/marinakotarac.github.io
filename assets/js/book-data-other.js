@@ -3,6 +3,16 @@ window.BOOK_DATABASES_OTHER = {
     "title": "Knjige na drugim jezicima",
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
+         {
+        "localName": "Mokenski jezik",
+        "englishName": "Moken language",
+        "title": "อะนาด พญาแนะ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Moken_language",
+        "coverImage": "naslovna/mokenski.jpg",
+        "coverThumb": "naslovna_th/mokenski.jpg",
+        "firstPageImage": "prva/mokenski.jpg",
+        "firstPageThumb": "prva_th/mokenski.jpg"
+      },
           {
         "localName": "Pali jezik",
         "englishName": "Pali language",
