@@ -4,6 +4,16 @@ window.BOOK_DATABASES_OTHER = {
     "description": "Prevodna i visejezicka izdanja iz fizicke kolekcije Marine Kotarac na jezicima van srpskog.",
     "items": [
         {
+        "localName": "Svati jezik",
+        "englishName": "Siswati or Swazi language",
+        "title": "INKHOSANA LENCANE",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Swazi_language",
+        "coverImage": "naslovna/svati.jpg",
+        "coverThumb": "naslovna_th/svati.jpg",
+        "firstPageImage": "prva/svati.jpg",
+        "firstPageThumb": "prva_th/svati.jpg"
+      },
+        {
         "localName": "Tigrinja jezik",
         "englishName": "Tigrinya language",
         "title": "ብጹእ ንኡስ ልዑል ወራሲ",
