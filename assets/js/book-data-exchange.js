@@ -6,14 +6,14 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
     {
-        "localName": "Srpski ćirilica",
+        "localName": "Srpski ćirilica ",
         "englishName": "Serbian Cyrillic",
         "title": "Мали принц",
         "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
-        "coverImage": "naslovna/srpski_cirilica_datastatus.jpg",
-        "coverThumb": "naslovna_th/srpski_cirilica_datastatus.jpg",
-        "firstPageImage": "prva/srpski_cirilica_datastatus.jpg",
-        "firstPageThumb": "prva_th/srpski_cirilica_datastatus.jpg"
+        "coverImage": "razmena/naslovna/srpski_cirilica_datastatus.jpg",
+        "coverThumb": "razmena/naslovna_th/srpski_cirilica_datastatus.jpg",
+        "firstPageImage": "razmena/prva/srpski_cirilica_datastatus.jpg",
+        "firstPageThumb": "razmena/prva_th/srpski_cirilica_datastatus.jpg"
       },
      {
         "localName": "Rumunski jezik",
