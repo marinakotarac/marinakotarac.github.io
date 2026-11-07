@@ -5,6 +5,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "description": "Duplikati i primerci namenjeni razmeni sa kolekcionarima, izdvojeni kao poseban katalog sa kontakt podacima.",
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
+     {
+        "localName": "Hrvatski jezik",
+        "englishName": "Croatian language",
+        "title": "Mali princ za decu",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Croatian_language",
+        "coverImage": "razmena/naslovna/hrvatski_Za_decu.jpg",
+        "coverThumb": "razmena/naslovna_th/hrvatski_Za_decu.jpg",
+        "firstPageImage": "razmena/prva/hrvatski_Za_decu.jpg",
+        "firstPageThumb": "razmena/prva_th/hrvatski_Za_decu.jpg"
+      },
     {
         "localName": "Srpski ćirilica ",
         "englishName": "Serbian Cyrillic",
