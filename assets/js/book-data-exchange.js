@@ -5,6 +5,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "description": "Duplikati i primerci namenjeni razmeni sa kolekcionarima, izdvojeni kao poseban katalog sa kontakt podacima.",
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
+    {
+        "localName": "Haketski jezik",
+        "englishName": "Haketia language",
+        "title": "El Prencipito",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Haketia",
+        "coverImage": "razmena/naslovna/haketia.jpg",
+        "coverThumb": "razmena/naslovna_th/haketia.jpg",
+        "firstPageImage": "razmena/prva/haketia.jpg",
+        "firstPageThumb": "razmena/prva_th/haketia.jpg"
+      },
      {
         "localName": "Hrvatski jezik",
         "englishName": "Croatian language",
