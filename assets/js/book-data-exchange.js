@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
     {
+        "localName": "Srpski latinica - adaptacija za pozorište",
+        "englishName": "Thr Little prince - Adaptation for the Theater",
+        "title": "Mali princ",
+        "wikiUrl": "https://en.wikipedia.org/wiki/List_of_The_Little_Prince_adaptations#Live_theatre_dramas",
+        "coverImage": "razmena/naslovna/srpskipozoriste.jpg",
+        "coverThumb": "razmena/naslovna_th/srpskipozoriste.jpg",
+        "firstPageImage": "razmena/prva/srpskipozoriste.jpg",
+        "firstPageThumb": "razmena/prva_th/srpskipozoriste.jpg"
+      },
+    {
         "localName": "Srpski latinica",
         "englishName": "Serbian Latin",
         "title": "Mali princ",
