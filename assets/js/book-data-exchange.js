@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
     {
+        "localName": "Srpski ćirilica ",
+        "englishName": "Serbian Cyrillic",
+        "title": "Мали принц",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
+        "coverImage": "razmena/naslovna/srpski-cirilica_laguna.jpg",
+        "coverThumb": "razmena/naslovna_th/srpski-cirilica_laguna.jpg",
+        "firstPageImage": "razmena/prva/srpski-cirilica_laguna.jpg",
+        "firstPageThumb": "razmena/prva_th/srpski-cirilica_laguna.jpg"
+      },
+    {
         "localName": "Srpski latinica - adaptacija za pozorište",
         "englishName": "Thr Little prince - Adaptation for the Theater",
         "title": "Mali princ",
