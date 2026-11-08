@@ -6,6 +6,16 @@ window.BOOK_DATABASES_EXCHANGE = {
   "englishDescription": "Duplicate copies and books available for exchange with fellow collectors, gathered in a dedicated catalog with contact details.",
   "items": [
     {
+        "localName": "Srpski ćirilica ",
+        "englishName": "Serbian Cyrillic",
+        "title": "Мали принц",
+        "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
+        "coverImage": "razmena/naslovna/srpski_cirilica_luta.jpg",
+        "coverThumb": "razmena/naslovna_th/srpski_cirilica_luta.jpg",
+        "firstPageImage": "razmena/prva/srpski_cirilica_luta.jpg",
+        "firstPageThumb": "razmena/prva_th/srpski_cirilica_luta.jpg"
+      },
+    {
         "localName": "Haketski jezik",
         "englishName": "Haketia language",
         "title": "El Prencipito",
